@@ -1,0 +1,210 @@
+*{
+    padding: 0px;
+    margin: 0px;
+
+}
+.main{
+    background-image: url(img/bg.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 45rem;
+}
+
+/* navbar */
+nav{
+    height: 85px;
+    background-color: rgb(58, 55, 55);
+}
+
+.logo{
+    padding: 0 50px;
+    display: inline-block;
+    line-height: 70px;
+    color: wheat;
+    font-weight: bolder;
+    font-size: 2.5rem;
+}
+
+nav ul{
+    float: right;
+    margin-right: 20px ;
+    list-style-type: none;
+    height: 70px;
+    line-height: 70px;
+}
+
+nav ul li{
+    display: inline;
+    margin: 0px 10px;
+}
+
+nav ul li a{
+    color: white;
+    text-decoration: none;
+    font-size: 1.5rem;
+}
+nav ul li a:hover{
+    background-color: burlywood;
+    border-radius: 10px;
+}
+
+/* main */
+.home {
+    display: flex;
+    flex-direction: column;
+    padding: 190px 75px;
+    background-size: cover;
+    align-items: center;
+}
+
+.home h1 {
+    width: 50%;
+    font-size: 2.5rem;
+    color: white;
+    text-align: center;
+}
+
+.home h3 ,p {
+    width: 50%;
+    margin-top: 10px;
+    font-size: 1.5rem;
+    color: white;
+}
+
+.btn1 {
+    width: 150px;
+    height: 50px;
+    margin-top: 12px;
+    padding: 2px 20px;
+    border: 2px solid black;
+    background-color: burlywood;
+    color: white;
+    border-radius: 20px;
+    font-size: 1.2rem;
+    font-family: 'Montserrat', sans-serif;
+    align-items: center;
+    font-weight: 600;
+}
+
+.btn1:hover {
+    color:burlywood;
+    background-color: white;
+    cursor: pointer;
+}
+
+/* services */
+.services-container{
+    background-color: rgb(58, 55, 55);
+    height: 22rem;
+}
+
+#services{
+   margin: 34px;
+   display: flex;
+   justify-content: space-evenly;
+   margin-block-start: 20px;
+}
+
+.services-container h1{
+    font-family: 'Montserrat', sans-serif;
+    text-align: center;
+    font-size: 2.5rem;
+    padding-top: 25px;
+    color: burlywood;
+}
+
+.box{
+    margin-inline: 3px;
+    padding: 34px;
+    width: 15rem;
+    height: 18rem;
+}
+.box img{
+    width: 100%;
+    cursor: pointer;
+    object-fit: cover;
+    border-radius: 50%;
+}
+.box h2{
+    text-align: center;  
+    font-weight: 300;
+    color: white;
+}
+
+/* About */
+.about{
+    background-color: burlywood;
+}
+
+.about h1{
+    font-size: 2.5rem;
+    padding-top: 20px;
+    padding-left:20px ;
+    margin-left: 43rem;
+    color: white;
+}
+
+.about p{
+    text-align: center;
+    margin-inline: 24rem
+}
+
+/* form */
+.in{
+    width: 94.9rem;
+    background: transparent;
+    backdrop-filter: 20px;
+    background-color: burlywood;
+}
+
+.in h1{
+    font-size: 2.5rem;
+    padding-top: 20px;
+    padding-left:20px ;
+    color: white;
+}
+
+.contact{
+    display: flex;
+}
+.box1{
+    width: 50%;
+}
+
+.form-group input{
+    width: 80%;
+    padding: 11px;
+    margin-top: 2.5rem;
+    margin-left: 20px;
+    font-size: 25px;
+    border: 1px solid rgb(207, 207, 207);
+    border-radius: 6px;
+}
+.btn{
+    margin: 12px 20px;
+    background-color: rgb(58, 55, 55);
+    color: white;
+    padding: 12px 14px;
+    border: 2px solid rgb(207, 207, 207);
+    border-radius: 8px;
+    font-size: 1.5rem;
+    cursor: pointer;
+    width: 140px;
+    font-size: 1.5rem;
+}
+
+.in-img img{
+    width: 40rem;
+    height: 30rem;
+}
+
+/* footer */
+footer{
+    background-color: rgb(58, 55, 55);
+    width: 95.5%;
+    color: white;
+    height: 40px;
+    font-size: 1.3rem;
+    text-align: center;
+    padding: 34px;
+}    

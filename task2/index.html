@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>To-Do List</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="container">
+    <header>
+    <h1>To-Do List</h1>
+    </header>
+    <main>
+            <form id="taskForm">
+                <input type="text" id="taskInput" placeholder="Enter task...">
+                <select id="prioritySelect">
+                    <option value="high">High Priority</option>
+                    <option value="medium">Medium Priority</option>
+                    <option value="low">Low Priority</option>
+                </select>
+                <button type="submit" id="addToDo">Add Task</button>
+            </form>
+            <section class="task-list">
+                <h2>Tasks</h2>
+                <div id="tasks">
+                    <ul id="taskList"></ul>
+                </div>
+            </section>
+    </main>
+  </div>
+
+<script src="script.js"></script>
+</body>
+</html>
